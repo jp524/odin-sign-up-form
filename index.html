@@ -4,10 +4,53 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Odin Sign-Up Form</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Test Page</h1>
+  <div class="left">
+    <div class="title-container">
+      <!-- <img src="./assets/odin-lined.png" alt="Odin Logo"> -->
+      <p>ODIN</p>
+    </div>
+    <p>Photo by <a href="">Halie West</a> on <a href="">Unsplash</a></p>
+  </div>
+  <div class="right">
+    <div class="instructions">
+      <p>This is not a real online service! You know you need something
+        like this in your life to help you realize your deepest dreams.
+        Sign up <em>now</em> to get started.</p>
+      <p>You <em>know</em> you want to.</p>
+    </div>
+    <form action="#" method="post">
+      <p>Let's do this!</p>
+      <div class="form-content">
+        <label for="first-name">FIRST NAME</label>
+        <input type="text" name="first-name" id="first-name">
+      </div>
+      <div class="form-content">
+        <label for="last-name">LAST NAME</label>
+        <input type="text" name="last-name" id="last-name">
+      </div>
+      <div class="form-content">
+        <label for="email">EMAIL</label>
+        <input type="email" name="email" id="email">
+      </div>
+      <div class="form-content">
+        <label for="phone">PHONE NUMBER</label>
+        <input type="tel" name="phone" id="phone">
+      </div>
+      <div class="form-content">
+        <label for="password">PASSWORD</label>
+        <input type="text" name="password" id="password">
+      </div>
+      <div class="form-content">
+        <label for="password-confirm">CONFIRM PASSWORD</label>
+        <input type="text" name="password-confirmd" id="password-confirm">
+      </div>
+    </form>
+    <button type="submit">Create Account</button>
+    <p>Already have an account? <a href="">Log in</a></p>
+  </div>
 </body>
 </html>
