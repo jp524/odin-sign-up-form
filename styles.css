@@ -1,3 +1,50 @@
-h1 {
-  color: blue;
+@font-face {
+  font-family: 'norse-bold';
+  src: url("./assets/norse-bold-webfont.woff2") format("woff2"),
+    url("./assets/norse-bold-webfont.woff") format("woff");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+}
+
+.left {
+  width: 300px;
+}
+
+.title-container {
+  width: inherit;
+}
+
+.background-img {
+  width: 300px;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+}
+
+.logo-container {
+  position: relative;
+  top: 100px;
+  width: inherit;
+  background-color: rgba(0, 0, 0, .5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.logo-img {
+  height: 4rem;
+}
+
+.logo-text {
+  color: white;
+  font-family: 'norse-bold';
+  font-size: 3.5rem;
 }
