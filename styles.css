@@ -7,6 +7,7 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -47,4 +48,95 @@ body {
   color: white;
   font-family: 'norse-bold';
   font-size: 3.5rem;
+}
+
+.left > p {
+  font-size: 0.7rem;
+  position: relative;
+  top: calc(90% - 1.2rem);
+  color:white;
+  text-align: center;
+}
+
+.left > p a {
+  color: white;
+}
+
+.right {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color:#ecededb5
+}
+
+.instructions {
+  margin: 40px 40px 10px 40px;
+}
+
+.instructions p {
+  margin-bottom: 30px;
+  font-size: 1.1rem;
+}
+
+form {
+  background-color: white;
+  padding: 0 40px 30px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px 0;
+  box-shadow: 5px 5px 5px lightgray;
+}
+
+form p {
+  font-size: 1.1rem;
+  margin: 20px 0 0;
+}
+
+.form-row {
+  display: flex;
+  justify-content: flex-start;
+  gap: 60px;
+}
+
+.form-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-content label {
+  font-size: 0.6em;
+  font-weight: bold;
+  color: rgb(106, 106, 106);
+  letter-spacing: 0.04rem;
+}
+
+button {
+  color: white;
+  background-color: #596D48;
+  border: none;
+  width: 200px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  margin: 30px 40px;
+  font-weight: bold;
+  box-shadow: 5px 5px 5px lightgray;
+}
+
+button:hover {
+  background-color: #596d48c4;
+}
+
+button:active {
+  background-color: #465538;
+  box-shadow: none;
+}
+
+.right a {
+  color: #596D48;
+  text-decoration: none;
+}
+
+.right > p {
+  margin: 0 40px;
 }
