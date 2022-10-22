@@ -51,11 +51,12 @@
         <div class="form-row">
           <div class="form-content">
             <label for="password">PASSWORD</label>
-            <input type="password" name="password" id="password">
+            <input type="password" name="password" id="password" class="error">
+            <p class="errorMessage">* Passwords do not match</p>
           </div>
           <div class="form-content">
             <label for="password-confirm">CONFIRM PASSWORD</label>
-            <input type="password" name="password-confirmd" id="password-confirm">
+            <input type="password" name="password-confirm" id="password-confirm" class="error">
           </div>
         </div>
       </div>
@@ -63,5 +64,6 @@
     </form>
     <p>Already have an account? <a href="#">Log in</a></p>
   </div>
+  <script src="./password-match.js"></script>
 </body>
 </html>

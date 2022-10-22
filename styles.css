@@ -81,7 +81,7 @@ body {
 
 .form-container {
   background-color: white;
-  padding: 0 40px 30px 40px;
+  padding: 0 40px 10px 40px;
   display: flex;
   flex-direction: column;
   gap: 15px 0;
@@ -123,7 +123,17 @@ input:focus {
 }
 
 input:invalid {
-  border: red solid 1px;
+  border: rgb(197, 0, 0) solid 1px;
+}
+
+.error {
+  border: rgb(197, 0, 0) solid 1px;
+}
+
+.errorMessage {
+  color: rgb(197, 0, 0);
+  font-size: 0.6rem;
+  margin: 0;
 }
 
 button {
