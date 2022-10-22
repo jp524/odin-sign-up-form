@@ -25,8 +25,9 @@
         Sign up <em>now</em> to get started.</p>
       <p>You <em>know</em> you want to.</p>
     </div>
-    <form action="#" method="post">
-      <p>Let's do this!</p>
+    <form>
+      <div class="form-container">
+        <p>Let's do this!</p>
         <div class="form-row">
           <div class="form-content">
             <label for="first-name">FIRST NAME</label>
@@ -40,7 +41,7 @@
         <div class="form-row">
           <div class="form-content">
             <label for="email">EMAIL</label>
-            <input type="email" name="email" id="email">
+            <input type="email" name="email" id="email" pattern="?@?.">
           </div>
           <div class="form-content">
             <label for="phone">PHONE NUMBER</label>
@@ -50,16 +51,17 @@
         <div class="form-row">
           <div class="form-content">
             <label for="password">PASSWORD</label>
-            <input type="text" name="password" id="password">
+            <input type="password" name="password" id="password">
           </div>
           <div class="form-content">
             <label for="password-confirm">CONFIRM PASSWORD</label>
-            <input type="text" name="password-confirmd" id="password-confirm">
+            <input type="password" name="password-confirmd" id="password-confirm">
           </div>
         </div>
+      </div>
+      <button type="submit">Create Account</button>
     </form>
-    <button type="submit">Create Account</button>
-    <p>Already have an account? <a href="">Log in</a></p>
+    <p>Already have an account? <a href="#">Log in</a></p>
   </div>
 </body>
 </html>

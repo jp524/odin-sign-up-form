@@ -79,7 +79,7 @@ body {
   font-size: 1.1rem;
 }
 
-form {
+.form-container {
   background-color: white;
   padding: 0 40px 30px 40px;
   display: flex;
@@ -109,6 +109,21 @@ form p {
   font-weight: bold;
   color: rgb(106, 106, 106);
   letter-spacing: 0.04rem;
+}
+
+input {
+  border: #E5E7EB solid 1px;
+  border-radius: 3px;
+}
+
+input:focus {
+  outline: none;
+  border: rgb(40, 60, 134) solid 1px;
+  box-shadow: 2px 2px 2px lightgray;
+}
+
+input:invalid {
+  border: red solid 1px;
 }
 
 button {
